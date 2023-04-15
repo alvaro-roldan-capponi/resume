@@ -1,0 +1,55 @@
+{
+  "personal_skills": " Analytical thinking | Conceptual reasoning | Critical thinking | Time management | Organizational awareness | Vision focused on the business | Decision making | Customer orientation Flexibility | Ability to work under pressure | Tolerance to stress and/or frustration | Innovation and creativity | Leadership | Active listening | Conflict resolution | Strategic orientation | Assertiveness | Self-control | Motivation to achievement | Learning attitude and continuous improvement.",
+  "extras": [
+    {
+      "title": "Skills",
+      "list": [
+        "AWS Services",
+        "Docker: Dockerfiles / docker-compose / multistage",
+        "Kubernetes: EKS",
+        "CI/CD: Gitlab-CI / Github Actions / Jenkins",
+        "Python",
+        "NodeJS",
+        "Typescript",
+        "Bash",
+        "Linux",
+        "Terraform",
+        "Jenkins",
+        "Git",
+        "Kafka",
+        "Angular",
+        "Monorepos",
+        "Agile Methodologies"
+      ]
+    },
+    {
+      "title": "Languages",
+      "list": [
+        "English: Advanced",
+        "Spanish: Native"
+      ]
+    },
+    {
+      "title": "Trainings",
+      "list": [
+        "Certificate Kubernetes Administrator (2023)",
+        "Complete Angular Developer (2022)",
+        "AWS Certified Developer (2020)",
+        "AWS CloudFormation Master Class",
+        "Docker Mastery: with Kubernetes + Swarm from a Docker Captain",
+        "Complete Python Bootcamp: From Zero to Hero in Python (2019)"
+      ]
+    },
+    {
+      "title": "Professional Skills",
+      "list": [
+        "Culture and methodology of Devops",
+        "Support to productive infrastructure",
+        "Pipelines for application implementation",
+        "Platform development in Kubernetes",
+        "Generation of infrastructure, orchestration and security services",
+        "Cloud Engineering (AWS Services)"
+      ]
+    }
+  ]
+}
