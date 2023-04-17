@@ -1,0 +1,110 @@
+{
+  "aboutMe": "I'm a Tech Lead DevOps Engineer with over 15 years of experience in IT, managing multicultural global teams. My main business expertise is retail and banking, where I've helped integrate different groups by creating pipelines to make Development, Operations, and Security areas work together. My goal is to help companies, from all backgrounds and sizes, move to DevOps culture, integrating agile methodologies, to achieve fast and secure development and production deployments.",
+  "experience": [
+    {
+      "name": "Autocloud",
+      "url": "https://www.autocloud.io/",
+      "position": "SRE - Cloud Engineer",
+      "dates": "Mach 2022 - present",
+      "company_type": "Cloud Services company",
+      "job_description": "Migrate and maintain the company infrastructure",
+      "tasks": [
+        "Creation and administration of Gitlab pipelines",
+        "Build, test and Deploy applications in Kubernetres using Helm and CI/CD pipelines."
+      ],
+      "tools": [
+        "AWS: EKS, S3, SQS, IAM, etc.",
+        "New Relic",
+        "Helm",
+        "Harbor",
+        "Gitlab and gitlab-ci configuration"
+      ]
+    },
+    {
+      "name": "Green Binary",
+      "url": "https://www.savvi.com/",
+      "position": "SRE - Cloud Engineer - Angular Developer",
+      "dates": "July 2022 - present (Part Time)",
+      "company_type": "Retail company",
+      "job_description": "Migrate and maintain a client web page and it's infrasctructure",
+      "tasks": [
+        "Create and maintain Deployment pipelines",
+        "Update and create new functionalities in company's UI",
+        "Update look and fill to modernize Cliente web page"
+      ],
+      "tools": [
+        "Azure: Functions, Webb Apps, Web security and AD",
+        "Angular 12 - 15",
+        "Bootstrap"
+      ]
+    },
+    {
+      "name": "GlobalLogic - eCommerce",
+      "url": "https://www.globallogic.com/",
+      "position": "Devops Engineer | Tech Lead",
+      "dates": "Aug 2019 - February 2022",
+      "company_type": "A digital product engineering company. We integrate experience design and complex engineering to help our clients imagine what's possible and accelerate their transition into tomorrow's digital businesses. Working directly for an important eCommerce with presence in several continents.",
+      "job_description": "Developed a Kubernetes platform to provide faster, secure and highly scalable business applications. Apply continuous delivery, improve and provide support on a development platform and, later, implement applications on Kubernetes on AWS (EKS). The templates serve, to applications, with pipelines, build, automated testing, publish, scan for vulnerabilities and implementation on different environments. My tasks consist in coordinate, propagate DevOps culture through presentations to stakeholders and teams, help architect new projects and give support to developers located in different countries (US, Canada, Irland, India, etc.). We provide support to applications developed in NodeJs, Java, Python, Go and .Net. The team is organized using Agile and SAFe.",
+      "tasks": [
+        "Create and maintain pipelines for infrastructure (Gitops)",
+        "Create and maintain pipelines for application deployments (CI/CD)",
+        "Cretate templates for different applications and use cases over previous infrastructure",
+        "Administrate Kubernetes clusters and AWS resources",
+        "Automatic Load Balancer provision for apps",
+        "Automatic domain record register in Route 53",
+        "New Relic monitoring add-on for the clusters"
+      ],
+      "tools": [
+        "AWS: EKS, S3, SQS, SNS, IAM, Route53, Load Balancers, Api Gateway, DynamoDB, CloudFormation, etc.",
+        "Node Js",
+        "Python",
+        "Bash",
+        "Yeoman Generators",
+        "Datadog",
+        "New Relic",
+        "Istio"
+      ]
+    },
+    {
+      "name": "Itau Bank",
+      "url": "https://www.itau.com.ar/Paginas/default.aspx",
+      "position": "Senior Devops",
+      "dates": "Jan 2017 - Jul 2019",
+      "company_type": "International Bank",
+      "job_description": "Implement DevOps methodologies both local a regionally, coordinating the creation of a platform and the pipelines in charge of the implementation of applications, systematizing work with collaborators from Brazil, Paraguay, Uruguay, Chile and Colombia",
+      "tasks": [
+        "Create new pipelines to deploy application",
+        "Help Developers and Devops in other countries to achieve successful deployments"
+      ],
+      "tools": [
+        "Linux",
+        "Jenkins",
+        "Ansible"
+      ]
+    },
+    {
+      "name": "Itau Bank",
+      "url": "https://www.itau.com.ar/Paginas/default.aspx",
+      "position": "Deployment and Production Platform Administrator",
+      "dates": "Feb 2014 - Dec 2016",
+      "company_type": "International Bank",
+      "job_description": "In charge of carrying out the expansion and administration of the versioning platform and implementation of the bank's applications (+ 100 applications)",
+      "tasks": [
+        "Research new applications to be managed by pipeline",
+        "Maintenance of applications managed by the workflow.",
+        "Provide security to the implementation of applications and databases in different environments"
+      ],
+      "tools": []
+    },
+    {
+      "name": "Itau Bank",
+      "url": "https://www.itau.com.ar/Paginas/default.aspx",
+      "position": "Senior Functional Analyst - Project Manager",
+      "dates": "Jun 2010 - Jan 2014",
+      "company_type": "International Bank",
+      "job_description": "Responsible for the development and implementation of a solution for the expansion of the bank's technological operational capacity, I coordinated a 3 collaborators team",
+      "tasks": [],
+      "tools": []
+    }
+  ]
+}
