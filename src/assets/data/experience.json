@@ -10,8 +10,7 @@
       "job_description": "Migrate and maintain the company infrastructure",
       "tasks": [
         "Creation and administration of Gitlab pipelines",
-        "Build, test and Deploy applications in Kubernetres using Helm and CI/CD pipelines.",
-        "S3 objects migration."
+        "Build, test and Deploy applications in Kubernetres using Helm and CI/CD pipelines."
       ],
       "tools": [
         "AWS: EKS, S3, SQS, IAM, etc.",
@@ -44,7 +43,7 @@
       "url": "https://www.globallogic.com/",
       "position": "Devops Engineer | Tech Lead",
       "dates": "Aug 2019 - February 2022",
-      "company_type": "A digital product engineering company. We integrate experience design and complex engineering to help our clients imagine what's possible and accelerate their transition into tomorrow's digital businesses. Working directly for an importan eCommerce with presence in several continents.",
+      "company_type": "A digital product engineering company. We integrate experience design and complex engineering to help our clients imagine what's possible and accelerate their transition into tomorrow's digital businesses. Working directly for an important eCommerce with presence in several continents.",
       "job_description": "Creating a Kubernetes platform to provide faster, more secure and highly scalable business applications. Apply continuous delivery, improve and provide support on a development platform and, later, implement applications on Kubernetes on AWS (EKS). The templates serve, to applications, with pipelines, build, automated testing, publish, scan for vulnerabilities and implementation on different environments. My tasks consist in coordinate, propagate DevOps culture through presentations to stakeholders and teams, help architect new projects and give support to developers located in different countries (US, Canada, Irland, India, etc.). We provide support to applications developed in NodeJs, Java, Python, Go and .Net. The team is organized using Agile and SAFe.",
       "tasks": [
         "Create and maintain pipelines for infrastructure (Gitops)",
