@@ -39,4 +39,4 @@ Configure your app to a remote server by running the following command:
 
 
 ng deploy --base-href=https://GithubUserName.github.io/GithubRepoName/
-ng deploy --base-href=https://alvaro-roldan-capponi.github.io/resume
+ng deploy --base-href=https://alvaro-roldan-capponi.github.io/resume/
