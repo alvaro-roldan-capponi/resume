@@ -16,7 +16,6 @@ export class MainCvComponent implements OnInit{
   extrasData: any = extraData;
 
   ngOnInit(): void {
-    // console.log('Data', this.experienceData.experience);
   }
 
 }

@@ -14,7 +14,6 @@ export class HtmlToPdfComponent {
   public async  exportPDF() {
 
     html2canvas(document.body).then(canvas => {
-      console.log("TEST");
 
       const doc = new jsPDF('p', 'mm');
       const contentDataURL = canvas.toDataURL('image/png');
