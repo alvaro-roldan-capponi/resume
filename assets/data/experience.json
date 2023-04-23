@@ -10,7 +10,7 @@
       "job_description": "Migrate and maintain the company infrastructure",
       "tasks": [
         "Creation and administration of Gitlab pipelines",
-        "Build, test and Deploy applications in Kubernetres using Helm and CI/CD pipelines."
+        "Build, test and Deploy applications in Kubernetres using Helm and CI/CD pipelines"
       ],
       "tools": [
         "AWS: EKS, S3, SQS, IAM, etc.",
@@ -48,7 +48,7 @@
       "tasks": [
         "Create and maintain pipelines for infrastructure (Gitops)",
         "Create and maintain pipelines for application deployments (CI/CD)",
-        "Cretate templates for different applications and use cases over previous infrastructure",
+        "Create templates for different applications and use cases over previous infrastructure",
         "Administrate Kubernetes clusters and AWS resources",
         "Automatic Load Balancer provision for apps",
         "Automatic domain record register in Route 53",
