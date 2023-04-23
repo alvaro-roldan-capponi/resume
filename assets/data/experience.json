@@ -73,7 +73,7 @@
       "company_type": "International Bank",
       "job_description": "Implement DevOps methodologies both local a regionally, coordinating the creation of a platform and the pipelines in charge of the implementation of applications, systematizing work with collaborators from Brazil, Paraguay, Uruguay, Chile and Colombia",
       "tasks": [
-        "Create new pipelines to deploy application",
+        "Create new pipelines to deploy applications",
         "Help Developers and Devops in other countries to achieve successful deployments"
       ],
       "tools": [
