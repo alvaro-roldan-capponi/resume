@@ -2,10 +2,32 @@
   "aboutMe": "I'm a Tech Lead DevOps Engineer with over 15 years of experience in IT, managing multicultural global teams. My main business expertise is retail and banking, where I've helped integrate different groups by creating pipelines to make Development, Operations, and Security areas work together. My goal is to help companies, from all backgrounds and sizes, move to DevOps culture, integrating agile methodologies, to achieve fast and secure development and production deployments.",
   "experience": [
     {
+      "name": "Waes",
+      "url": "https://wearewaes.com/",
+      "position": "Devops Engineer | Tech Lead",
+      "dates": "Aug 2023 - Current",
+      "company_type": "Consultancy Company",
+      "job_description": "Migrate and maintain the company infrastructure",
+      "tasks": [
+        "Creation refactor of Terraform Code",
+        "Build, test and Deploy applications in Kubernetres using Helm and CI/CD pipelines",
+        "Redefine architecture and way of working"
+      ],
+      "tools": [
+        "AWS: EKS, S3, SQS, IAM, etc.",
+        "Datadog",
+        "Helm",
+        "Artifactory",
+        "Terraform",
+        "Calico",
+        "Argo-CD"
+      ]
+    },
+    {
       "name": "Autocloud",
       "url": "https://www.autocloud.io/",
       "position": "SRE - Cloud Engineer",
-      "dates": "Mach 2022 - present",
+      "dates": "Mach 2022 - July 2023",
       "company_type": "Cloud Services company",
       "job_description": "Migrate and maintain the company infrastructure",
       "tasks": [
