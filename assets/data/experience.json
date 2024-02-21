@@ -4,13 +4,13 @@
     {
       "name": "Waes",
       "url": "https://wearewaes.com/",
-      "position": "Devops Engineer | Tech Lead",
+      "position": "Devops Architect | Tech Lead",
       "dates": "Aug 2023 - Current",
       "company_type": "Consultancy Company",
       "job_description": "Migrate and maintain the company infrastructure",
       "tasks": [
-        "Creation refactor of Terraform Code",
-        "Build, test and Deploy applications in Kubernetres using Helm and CI/CD pipelines",
+        "Creation and refactor of Terraform Code to implement good practices",
+        "Build, test and Deploy applications in Kubernetres using CI/CD pipelines and Helm",
         "Redefine architecture and way of working"
       ],
       "tools": [
