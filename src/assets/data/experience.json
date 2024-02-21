@@ -2,15 +2,37 @@
   "aboutMe": "I'm a Tech Lead DevOps Engineer with over 15 years of experience in IT, managing multicultural global teams. My main business expertise is retail and banking, where I've helped integrate different groups by creating pipelines to make Development, Operations, and Security areas work together. My goal is to help companies, from all backgrounds and sizes, move to DevOps culture, integrating agile methodologies, to achieve fast and secure development and production deployments.",
   "experience": [
     {
+      "name": "Waes",
+      "url": "https://wearewaes.com/",
+      "position": "Devops Architect | Tech Lead",
+      "dates": "Aug 2023 - Current",
+      "company_type": "Consultancy Company",
+      "job_description": "Migrate and maintain the company infrastructure",
+      "tasks": [
+        "Creation and refactor of Terraform Code to implement good practices",
+        "Build, test and Deploy applications in Kubernetres using CI/CD pipelines and Helm",
+        "Redefine architecture and way of working"
+      ],
+      "tools": [
+        "AWS: EKS, S3, SQS, IAM, etc.",
+        "Datadog",
+        "Helm",
+        "Artifactory",
+        "Terraform",
+        "Calico",
+        "Argo-CD"
+      ]
+    },
+    {
       "name": "Autocloud",
       "url": "https://www.autocloud.io/",
       "position": "SRE - Cloud Engineer",
-      "dates": "Mach 2022 - present",
+      "dates": "Mach 2022 - July 2023",
       "company_type": "Cloud Services company",
       "job_description": "Migrate and maintain the company infrastructure",
       "tasks": [
         "Creation and administration of Gitlab pipelines",
-        "Build, test and Deploy applications in Kubernetres using Helm and CI/CD pipelines."
+        "Build, test and Deploy applications in Kubernetres using Helm and CI/CD pipelines"
       ],
       "tools": [
         "AWS: EKS, S3, SQS, IAM, etc.",
@@ -48,7 +70,7 @@
       "tasks": [
         "Create and maintain pipelines for infrastructure (Gitops)",
         "Create and maintain pipelines for application deployments (CI/CD)",
-        "Cretate templates for different applications and use cases over previous infrastructure",
+        "Create templates for different applications and use cases over previous infrastructure",
         "Administrate Kubernetes clusters and AWS resources",
         "Automatic Load Balancer provision for apps",
         "Automatic domain record register in Route 53",
@@ -73,7 +95,7 @@
       "company_type": "International Bank",
       "job_description": "Implement DevOps methodologies both local a regionally, coordinating the creation of a platform and the pipelines in charge of the implementation of applications, systematizing work with collaborators from Brazil, Paraguay, Uruguay, Chile and Colombia",
       "tasks": [
-        "Create new pipelines to deploy application",
+        "Create new pipelines to deploy applications",
         "Help Developers and Devops in other countries to achieve successful deployments"
       ],
       "tools": [

@@ -1,0 +1,7 @@
+.git*
+.pytest_cache
+.vscode
+Dockerfile
+.Dockerfile
+hostConfig
+README.md
