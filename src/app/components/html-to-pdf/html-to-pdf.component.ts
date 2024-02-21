@@ -15,28 +15,24 @@ export class HtmlToPdfComponent {
   public async  exportPDF() {
 
     html2canvas(document.body).then(canvas => {
-      const pdfName = `${this.personal_data.name.split(" ").join("-").toLowerCase()}-cv.pdf`
-
-      const doc = new jsPDF('p', 'mm');
-      const contentDataURL = canvas.toDataURL('image/png');
-
-      const pageWidth = doc.internal.pageSize.getWidth();
-      const pageHeight = doc.internal.pageSize.getHeight();
-      const imgHeight = canvas.height * pageWidth / canvas.width;
-      let heightLeft = imgHeight;
+      const pdfName = `${this.personal_data.name.split(" ").join("-").toLowerCase()}-cv.pdf`;
+      const pdf = new jsPDF('p', 'mm', 'a4');
+      const imgWidth = pdf.internal.pageSize.getWidth();
+      const imgHeight = (canvas.height * imgWidth) / canvas.width;
 
       let position = 0;
+      let pageHeightLeft = imgHeight;
 
-      doc.addImage(contentDataURL, 'PNG', 0, position, pageWidth, imgHeight);
-      heightLeft -= pageHeight;
-
-      while (heightLeft >= 0) {
-        position = heightLeft - imgHeight;
-        doc.addPage();
-        doc.addImage(contentDataURL, 'PNG', 0, position, pageWidth, imgHeight);
-        heightLeft -= pageHeight;
+      while (pageHeightLeft > 0) {
+          pdf.addImage(canvas, 'JPEG', 0, position, imgWidth, imgHeight, undefined, 'FAST');
+          pageHeightLeft -= pdf.internal.pageSize.getHeight();
+          position -= pdf.internal.pageSize.getHeight();
+          if (pageHeightLeft > 0) {
+              pdf.addPage();
+          }
       }
-      doc.save(`${pdfName}`);
+
+      pdf.save(pdfName);
     });
   }
 }
