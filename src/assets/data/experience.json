@@ -7,11 +7,13 @@
       "position": "Devops Architect | Tech Lead",
       "dates": "Aug 2023 - Current",
       "company_type": "Consultancy Company",
-      "job_description": "Migrate and maintain the company infrastructure",
+      "job_description": "Upgarde, secure and maintain the company infrastructure",
       "tasks": [
         "Creation and refactor of Terraform Code to implement good practices",
         "Build, test and Deploy applications in Kubernetres using CI/CD pipelines and Helm",
-        "Redefine architecture and way of working"
+        "Redefine architecture and way of working",
+        "Implement Security trough implementation of role and environment segregation",
+        "Define and implement automation for a Disaster Recovery Plan"
       ],
       "tools": [
         "AWS: EKS, S3, SQS, IAM, etc.",
