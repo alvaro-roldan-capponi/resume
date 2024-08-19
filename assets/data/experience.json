@@ -12,7 +12,7 @@
         "Creation and refactor of Terraform Code to implement good practices",
         "Build, test and Deploy applications in Kubernetres using CI/CD pipelines and Helm",
         "Redefine architecture and way of working",
-        "Implement Security through the implementation of role base access and environment segregation",
+        "Implement Security through the definition of Roles, the implementation of Role-based access control and environments segregation",
         "Define and implement automation for a Disaster Recovery Plan"
       ],
       "tools": [
