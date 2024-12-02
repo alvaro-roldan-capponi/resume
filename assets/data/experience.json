@@ -4,8 +4,36 @@
     {
       "name": "Waes",
       "url": "https://wearewaes.com/",
+      "position": "Staff DevOps Engineer",
+      "dates": "Apr 2024 - Current",
+      "company_type": "Consultancy Company",
+      "job_description": "Member of the DevOps Guild and Consultancy Team",
+      "tasks": [
+        "Contributed to redefining the strategy and scope of the DevOps & Cloud Guild, aligning capabilities with market demands and internal priorities.",
+        "Updated the technical skills matrix for the DevOps consultancy team, identifying gaps and development opportunities.",
+        "Designed cloud architectures for strategic commercial proposals, focusing on scalability and cost optimization.",
+        "Trainer and facilitator in DevOps and Cloud practices for Software Engineering, Data Engineering, and DevOps/Cloud teams, fostering continuous skill enhancement.",
+        "Delivered internal courses on CI/CD, pipelines, Infrastructure as Code (IaC), and application deployment automation.",
+        "Led the technological renewal of an existing Employee Experience System for the HR team.",
+        "Enhancing system architecture and networking by incorporating new tools and integrations.",
+        "Backend development using Python, optimizing existing functionalities and integrating NoSQL databases.",
+        "Frontend updates using Angular, focusing on improving the user experience.",
+        "Automated infrastructure setup with Terraform and Bash, enhancing the system's scalability and reliability.",
+        "Integrating HR tools and processes with new features to enrich the employee experience."
+      ],
+      "tools": [
+        "AWS: S3, Lambda, ECS, Fargate, ECR, IAM, DynamoDB, etc.",
+        "Python (FastAPI)",
+        "Angular",
+        "Azure: General Administragion, WebApps, Azure Container Apps, Etc.",
+        "Terraform"
+      ]
+    },
+    {
+      "name": "Waes",
+      "url": "https://wearewaes.com/",
       "position": "Devops Architect | Tech Lead",
-      "dates": "Aug 2023 - Current",
+      "dates": "Aug 2023 - Sep 2024",
       "company_type": "Consultancy Company",
       "job_description": "Upgrade, secure and maintain the company infrastructure",
       "tasks": [
