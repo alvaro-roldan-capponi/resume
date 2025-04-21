@@ -2,6 +2,26 @@
   "aboutMe": "I'm a Tech Lead DevOps Engineer with over 15 years of experience in IT, managing multicultural global teams. My main business expertise is retail and banking, where I've helped integrate different groups by creating pipelines to make Development, Operations, and Security areas work together. My goal is to help companies, from all backgrounds and sizes, move to DevOps culture, integrating agile methodologies, to achieve fast and secure development and production deployments.",
   "experience": [
     {
+      "name": "Waes - GoodHabitz",
+      "url": "https://goodhabitz.com/",
+      "position": "Senior Cloud Engineer",
+      "dates": "February 2025 - Current",
+      "company_type": "Consultancy Company",
+      "job_description": "Create a Platform and migrate infrastructure from On-Site, GCP and Azure clouds",
+      "tasks": [
+        "Create and update Terraform Code",
+        "Define and recreate Networking and Security within AWS",
+        "Update applications pipelines form infrasctructure and applications"
+      ],
+      "tools": [
+        "AWS: S3, EKS, ECR, IAM, VCP, etc.",
+        "VPN: Headscale / Headscale",
+        "Python (FastAPI)",
+        "Terraform",
+        "Gitlab / Gitlab-CI"
+      ]
+    },
+    {
       "name": "Waes",
       "url": "https://wearewaes.com/",
       "position": "Staff DevOps Engineer",
