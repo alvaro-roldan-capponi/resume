@@ -14,11 +14,13 @@
         "Update applications pipelines form infrasctructure and applications"
       ],
       "tools": [
-        "AWS: S3, EKS, ECR, IAM, VCP, etc.",
+        "AWS: S3, EKS, ECR, IAM, VPC, Cloudfront, Lambda, LoadBalancer, etc.",
         "VPN: Headscale / Headscale",
         "Python (FastAPI)",
         "Terraform",
-        "Gitlab / Gitlab-CI"
+        "Gitlab / Gitlab-CI",
+        "Ansible",
+        "Docker"
       ]
     },
     {
