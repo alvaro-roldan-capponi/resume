@@ -7,7 +7,7 @@
       "position": "Senior Cloud Engineer",
       "dates": "February 2025 - Current",
       "company_type": "Consultancy Company",
-      "job_description": "Create a Platform and migrate infrastructure from On-Site, GCP and Azure clouds",
+      "job_description": "Create a Platform in AWS, mainly using EKS, and migrate infrastructure from On-Site, GCP and Azure clouds",
       "tasks": [
         "Create and update Terraform Code",
         "Define and recreate Networking and Security within AWS",
