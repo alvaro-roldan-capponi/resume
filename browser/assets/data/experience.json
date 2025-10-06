@@ -1,0 +1,137 @@
+{
+  "aboutMe": "I'm a Tech Lead DevOps Engineer with over 15 years of experience in IT, managing multicultural global teams and leading cloud transformation initiatives. My expertise spans retail, banking, and enterprise technology, where I've successfully integrated Development, Operations, and Security teams through innovative pipeline solutions. I specialize in leading technical teams, defining cloud architecture strategies, and driving DevOps culture adoption across organizations of all sizes to achieve fast, secure, and scalable deployments.",
+  "experience": [
+    {
+      "name": "Waes",
+      "url": "https://wearewaes.com/",
+      "position": "Senior Cloud Architect | Tech Lead DevOps",
+      "dates": "Aug 2023 - Current",
+      "company_type": "Consultancy Company",
+      "job_description": "As part of Waes consultancy, I lead cloud transformation initiatives for enterprise clients, defining architecture strategies and managing technical teams to deliver scalable, secure cloud-native solutions. My focus includes managing cross-functional teams, architecting multi-cloud environments, and establishing DevOps best practices that align with business objectives.",
+      "tasks": [
+        "Led complete infrastructure redesign and migration for GoodHabitz, migrating from On-Premises, GCP, and Azure to a unified AWS platform using Terraform, resulting in 40% cost optimization and improved security posture.",
+        "Architected and deployed enterprise-scale EKS (Kubernetes) platforms supporting microservices architectures and automated CI/CD workflows across multiple environments.",
+        "Designed and implemented Azure Kubernetes Service (AKS) clusters with integrated AI-powered Merge Request analysis and token caching mechanisms, reducing AI processing costs by 60%.",
+        "Built comprehensive AWS infrastructure using ECS Fargate for containerized applications, including API Gateway, Network Load Balancers, RDS, Secrets Manager, and ECR with full observability.",
+        "Defined Infrastructure as Code strategies and CI/CD pipeline architectures, establishing deployment standards and automation frameworks for development teams.",
+        "Provided technical leadership and mentoring to DevOps engineering teams, conducting architecture reviews and driving adoption of cloud-native best practices.",
+        "Collaborated with C-level executives, CTOs, and engineering leadership to define DevOps maturity roadmaps, technology strategies, and organizational transformation initiatives.",
+        "Managed multi-cultural project teams across different time zones, ensuring successful delivery of complex cloud migration projects within budget and timeline constraints."
+      ],
+      "tools": [
+        "AWS: EKS, ECS, Fargate, API Gateway, RDS, ECR, S3, VPC, IAM, CloudFront, Secrets Manager, Load Balancers",
+        "Azure: AKS, Container Apps, Functions, Web Apps, AD, AI integrations",
+        "Terraform",
+        "GitLab / GitLab-CI",
+        "Python (FastAPI)",
+        "Ansible",
+        "Docker",
+        "Kubernetes",
+        "AI Tools (MR Analysis, Token Optimization)"
+      ]
+    },
+    {
+      "name": "Autocloud",
+      "url": "https://www.autocloud.io/",
+      "position": "SRE - Cloud Engineer",
+      "dates": "Mar 2022 - Jul 2023",
+      "company_type": "Cloud Services company",
+      "job_description": "Migrate and maintain the company infrastructure, ensuring scalability, availability, and automation of deployments.",
+      "tasks": [
+        "Created and administered GitLab pipelines for CI/CD.",
+        "Built, tested, and deployed applications in Kubernetes using Helm and pipelines."
+      ],
+      "tools": [
+        "AWS: EKS, S3, SQS, IAM",
+        "New Relic",
+        "Helm",
+        "Harbor",
+        "GitLab and GitLab-CI configuration"
+      ]
+    },
+    {
+      "name": "Green Binary",
+      "url": "https://www.savvi.com/",
+      "position": "SRE - Cloud Engineer - Angular Developer",
+      "dates": "Jul 2022 - Present (Part Time)",
+      "company_type": "Retail company",
+      "job_description": "Migrate and maintain a client web page and its infrastructure, improving functionality and design.",
+      "tasks": [
+        "Created and maintained deployment pipelines.",
+        "Updated and created new functionalities in the company's UI.",
+        "Modernized the client's web page design and performance."
+      ],
+      "tools": [
+        "Azure: Functions, Web Apps, Security and AD",
+        "Angular 12 - 15",
+        "Bootstrap"
+      ]
+    },
+    {
+      "name": "GlobalLogic - eCommerce",
+      "url": "https://www.globallogic.com/",
+      "position": "DevOps Engineer | Tech Lead",
+      "dates": "Aug 2019 - Feb 2022",
+      "company_type": "Digital Product Engineering Company",
+      "job_description": "Developed a Kubernetes platform to provide faster, secure, and highly scalable business applications. Applied continuous delivery practices, improved automation, and supported global development teams.",
+      "tasks": [
+        "Created and maintained GitOps pipelines for infrastructure.",
+        "Developed CI/CD pipelines for application deployments.",
+        "Designed templates for different applications and use cases.",
+        "Administered Kubernetes clusters and AWS resources.",
+        "Implemented automated provisioning for load balancers and Route53 records.",
+        "Integrated monitoring solutions such as New Relic and Datadog."
+      ],
+      "tools": [
+        "AWS: EKS, S3, SQS, SNS, IAM, Route53, Load Balancers, API Gateway, DynamoDB, CloudFormation",
+        "Node.js",
+        "Python",
+        "Bash",
+        "Yeoman Generators",
+        "Datadog",
+        "New Relic",
+        "Istio"
+      ]
+    },
+    {
+      "name": "Itau Bank",
+      "url": "https://www.itau.com.ar",
+      "position": "Senior DevOps Engineer",
+      "dates": "Jan 2017 - Jul 2019",
+      "company_type": "International Bank",
+      "job_description": "Implemented DevOps methodologies across regional teams, coordinating platform creation and pipeline automation for multi-country deployments.",
+      "tasks": [
+        "Created new pipelines to deploy applications.",
+        "Supported development and DevOps teams across multiple Latin American countries."
+      ],
+      "tools": [
+        "Linux",
+        "Jenkins",
+        "Ansible"
+      ]
+    },
+    {
+      "name": "Itau Bank",
+      "url": "https://www.itau.com.ar",
+      "position": "Deployment and Production Platform Administrator",
+      "dates": "Feb 2014 - Dec 2016",
+      "company_type": "International Bank",
+      "job_description": "Managed and expanded the bank's versioning and application deployment platform, supporting over 100 applications.",
+      "tasks": [
+        "Researched and onboarded new applications into automated workflows.",
+        "Maintained application pipelines and ensured secure deployments across environments."
+      ],
+      "tools": []
+    },
+    {
+      "name": "Itau Bank",
+      "url": "https://www.itau.com.ar",
+      "position": "Senior Functional Analyst - Project Manager",
+      "dates": "Jun 2010 - Jan 2014",
+      "company_type": "International Bank",
+      "job_description": "Led the development and implementation of solutions to expand the bank’s technological operational capacity, managing a team of 3 collaborators.",
+      "tasks": [],
+      "tools": []
+    }
+  ]
+}
