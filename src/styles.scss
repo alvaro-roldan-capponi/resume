@@ -1,9 +1,534 @@
-/* You can add global styles to this file, and also import other style files */
+/* Tron-Inspired Dark Theme for CV Angular App */
 /* Importing Bootstrap SCSS file using modern @use syntax */
 @use 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons.css';
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;500;600&display=swap');
 
 :root {
---bs-body-font-family:'Roboto', sans-serif;
+  /* Tron Movie Color Palette */
+  --tron-black: #000814;
+  --tron-dark-blue: #001d3d;
+  --tron-blue: #003566;
+  --tron-cyan: #00ffff;
+  --tron-light-cyan: #7dd3fc;
+  --tron-orange: #ff6500;
+  --tron-white: #ffffff;
+  --tron-gray: #334155;
+  --tron-light-gray: #64748b;
+
+  /* Fonts */
+  --font-main: 'Exo 2', sans-serif;
+  --font-display: 'Orbitron', monospace;
+
+  /* Grid and Glow Effects */
+  --grid-color: rgba(0, 255, 255, 0.08);
+  --glow-cyan: 0 0 10px var(--tron-cyan), 0 0 20px var(--tron-cyan), 0 0 30px var(--tron-cyan);
+  --glow-blue: 0 0 10px var(--tron-light-cyan), 0 0 20px var(--tron-light-cyan);
+  --border-glow: 1px solid var(--tron-cyan);
+}
+
+/* Global Tron-inspired styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background: linear-gradient(135deg, var(--tron-black) 0%, var(--tron-dark-blue) 100%);
+  color: var(--tron-white);
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(var(--grid-color) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+  background-size: 50px 50px;
+  animation: gridMove 20s linear infinite;
+  z-index: -2;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 20% 20%, rgba(0, 255, 255, 0.1) 0%, transparent 50%),
+              radial-gradient(circle at 80% 80%, rgba(125, 211, 252, 0.1) 0%, transparent 50%),
+              radial-gradient(circle at 40% 40%, rgba(0, 255, 255, 0.05) 0%, transparent 50%);
+  animation: particleFloat 15s ease-in-out infinite alternate;
+  z-index: -1;
+}
+
+/* Grid Animation */
+@keyframes gridMove {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(50px, 50px); }
+}
+
+/* Particle Float Animation */
+@keyframes particleFloat {
+  0% { transform: translateY(0px) rotate(0deg); }
+  100% { transform: translateY(-20px) rotate(5deg); }
+}
+
+/* Tron Color Utilities */
+.text-cyan { color: var(--tron-cyan) !important; }
+.text-blue { color: var(--tron-light-cyan) !important; }
+.text-orange { color: var(--tron-orange) !important; }
+.text-tron-white { color: var(--tron-white) !important; }
+.text-tron-gray { color: var(--tron-light-gray) !important; }
+
+/* Header Styling with Tron Aesthetic */
+.header-container {
+  background: linear-gradient(90deg, rgba(0, 8, 20, 0.95) 0%, rgba(0, 29, 61, 0.95) 100%);
+  backdrop-filter: blur(10px);
+  border-bottom: var(--border-glow);
+  box-shadow: 0 4px 20px rgba(0, 255, 255, 0.2);
+  z-index: 1030;
+  height: 70px;
+}
+
+.header-container h3,
+.header-container h6 {
+  font-family: var(--font-display);
+  text-shadow: 0 0 5px currentColor;
+}
+
+.header-container .header-icon {
+  transition: all 0.3s ease;
+}
+
+.header-container .header-icon:hover {
+  color: var(--tron-cyan) !important;
+  text-shadow: var(--glow-cyan);
+  transform: scale(1.1);
+}
+
+/* Main Content Container */
+.main-content {
+  padding-top: 80px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Typography with Futuristic Styling */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: var(--tron-white);
+  text-shadow: 0 0 5px currentColor;
+}
+
+.display-6 {
+  font-weight: 700;
+  color: var(--tron-cyan);
+  text-shadow: var(--glow-cyan);
+  font-size: 2.5rem;
+  position: relative;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.display-6::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--tron-cyan), transparent, var(--tron-cyan));
+  box-shadow: var(--glow-blue);
+  transform: translateX(-50%);
+}
+
+/* Section Styling */
+.section-spacing {
+  margin-bottom: 5rem;
+}
+
+/* Tron-style Card Design */
+.container {
+  background: linear-gradient(135deg,
+    rgba(0, 29, 61, 0.3) 0%,
+    rgba(0, 53, 102, 0.2) 100%);
+  border: 1px solid var(--tron-light-cyan);
+  border-radius: 10px;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+  backdrop-filter: blur(5px);
+  transition: all 0.4s ease;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+  padding: 1px;
+  background: linear-gradient(45deg, var(--tron-cyan), var(--tron-light-cyan), var(--tron-cyan));
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: xor;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.container:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 255, 255, 0.3);
+}
+
+.container:hover::before {
+  opacity: 1;
+}
+
+/* Experience Card Styling */
+.experience-card {
+  background: linear-gradient(135deg,
+    rgba(0, 29, 61, 0.4) 0%,
+    rgba(0, 53, 102, 0.2) 100%);
+  border: 1px solid var(--tron-light-cyan);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+}
+
+.experience-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px;
+  padding: 1px;
+  background: linear-gradient(45deg, var(--tron-cyan), var(--tron-light-cyan), var(--tron-cyan));
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: xor;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 255, 255, 0.2);
+}
+
+.experience-card:hover::before {
+  opacity: 1;
+}
+
+/* Profile Image with Glow Effect */
+.profile-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--tron-cyan);
+  box-shadow: var(--glow-cyan);
+  transition: all 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px var(--tron-cyan);
+}
+
+/* Company and Position Styling */
+.company-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--tron-cyan);
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 5px currentColor;
+}
+
+.position-title {
+  font-weight: 500;
+  color: var(--tron-light-cyan);
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 3px currentColor;
+}
+
+.date-range {
+  color: var(--tron-light-gray);
+  font-size: 0.9rem;
+}
+
+.company-badge {
+  display: inline-block;
+  background: linear-gradient(45deg, var(--tron-blue), var(--tron-light-cyan));
+  color: var(--tron-white);
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 3px currentColor;
+}
+
+/* Skill Tags with Glow */
+.skill-tag {
+  display: inline-block;
+  background: linear-gradient(45deg, rgba(0, 255, 255, 0.1), rgba(125, 211, 252, 0.1));
+  color: var(--tron-cyan);
+  border: 1px solid var(--tron-light-cyan);
+  padding: 0.25rem 0.75rem;
+  margin: 0.25rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+  background: var(--tron-cyan);
+  color: var(--tron-black);
+  box-shadow: var(--glow-blue);
+  transform: scale(1.05);
+  text-shadow: none;
+}
+
+/* Contact Section with Futuristic Styling */
+.contact-section {
+  background: linear-gradient(135deg,
+    rgba(0, 53, 102, 0.3) 0%,
+    rgba(0, 29, 61, 0.3) 100%);
+  border: 1px solid var(--tron-cyan);
+  border-radius: 15px;
+  padding: 3rem;
+  text-align: center;
+  margin: 3rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(from 0deg, transparent, var(--tron-cyan), transparent);
+  animation: rotate 4s linear infinite;
+  opacity: 0.1;
+}
+
+.contact-section::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: linear-gradient(135deg,
+    rgba(0, 29, 61, 0.8) 0%,
+    rgba(0, 53, 102, 0.8) 100%);
+  border-radius: 13px;
+  z-index: -1;
+}
+
+.contact-section h4 {
+  position: relative;
+  z-index: 1;
+  color: var(--tron-cyan);
+  text-shadow: var(--glow-cyan);
+}
+
+.contact-section .lead {
+  position: relative;
+  z-index: 1;
+  color: var(--tron-light-gray);
+}
+
+@keyframes rotate {
+  100% { transform: rotate(1turn); }
+}
+
+/* Button Styling with Tron Glow */
+.btn-primary {
+  background: linear-gradient(45deg, var(--tron-cyan), var(--tron-light-cyan));
+  border: none;
+  color: var(--tron-black);
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  font-family: var(--font-display);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, var(--tron-light-cyan), var(--tron-cyan));
+  box-shadow: var(--glow-cyan);
+  transform: translateY(-2px);
+}
+
+.btn-outline-primary {
+  border: 2px solid var(--tron-cyan);
+  color: var(--tron-cyan);
+  background: transparent;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  font-family: var(--font-display);
+}
+
+.btn-outline-primary:hover {
+  background: var(--tron-cyan);
+  color: var(--tron-black);
+  box-shadow: var(--glow-cyan);
+  transform: translateY(-2px);
+}
+
+/* Link Styling */
+a {
+  color: var(--tron-light-cyan);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--tron-cyan);
+  text-shadow: var(--glow-blue);
+  text-decoration: none;
+}
+
+/* List Styling with Tron Bullets */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  color: var(--tron-light-gray);
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+ul li::before {
+  content: '▸';
+  color: var(--tron-cyan);
+  font-size: 1.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-shadow: 0 0 5px currentColor;
+}
+
+/* Lead Text */
+.lead {
+  color: var(--tron-light-gray);
+  line-height: 1.6;
+  font-size: 1.125rem;
+}
+
+/* Paragraph Text */
+p {
+  color: var(--tron-light-gray);
+  line-height: 1.6;
+}
+
+/* Bootstrap Override for Tron Theme */
+.container-fluid {
+  position: relative;
+  z-index: 1;
+}
+
+/* Icon Styling */
+.bi {
+  transition: all 0.3s ease;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--tron-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--tron-cyan);
+  border-radius: 4px;
+  box-shadow: 0 0 5px var(--tron-cyan);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--tron-light-cyan);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header-container .d-flex {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .header-container .d-flex > div:first-child {
+    margin-bottom: 1rem;
+  }
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .experience-card, .container {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .display-6 {
+    font-size: 2rem;
+  }
+
+  .contact-section {
+    padding: 2rem;
+    margin: 2rem 1rem;
+  }
+}
+
+/* Utility Classes */
+.text-accent { color: var(--tron-cyan) !important; }
+.text-success { color: var(--tron-light-cyan) !important; }
+.text-secondary { color: var(--tron-light-gray) !important; }
+.text-muted { color: var(--tron-gray) !important; }
+
+/* Animation for smooth entrance */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main-content .container {
+  animation: fadeInUp 0.6s ease-out;
 }

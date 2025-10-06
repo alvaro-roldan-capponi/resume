@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import * as expData from '../../../assets/data/experience.json';
 import * as eduData from '../../../assets/data/education.json';
 import * as extraData from '../../../assets/data/extras.json';
+import * as personalData from '../../../assets/data/personal_data.json';
 
 @Component({
     selector: 'app-main-cv',
@@ -15,8 +16,10 @@ export class MainCvComponent implements OnInit{
   experienceData: any = expData;
   educationData: any = eduData;
   extrasData: any = extraData;
+  personalData: any = personalData;
 
   ngOnInit(): void {
+    // Component initialization
   }
 
 }
