@@ -4,9 +4,10 @@ import * as eduData from '../../../assets/data/education.json';
 import * as extraData from '../../../assets/data/extras.json';
 
 @Component({
-  selector: 'app-main-cv',
-  templateUrl: './main-cv.component.html',
-  styleUrls: ['./main-cv.component.scss']
+    selector: 'app-main-cv',
+    templateUrl: './main-cv.component.html',
+    styleUrls: ['./main-cv.component.scss'],
+    standalone: false
 })
 export class MainCvComponent implements OnInit{
 

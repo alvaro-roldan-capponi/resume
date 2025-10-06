@@ -5,9 +5,10 @@ import * as personalData from '../../../assets/data/personal_data.json';
 
 
 @Component({
-  selector: 'app-html-to-pdf',
-  templateUrl: './html-to-pdf.component.html',
-  styleUrls: ['./html-to-pdf.component.scss']
+    selector: 'app-html-to-pdf',
+    templateUrl: './html-to-pdf.component.html',
+    styleUrls: ['./html-to-pdf.component.scss'],
+    standalone: false
 })
 export class HtmlToPdfComponent {
   personal_data = personalData;
