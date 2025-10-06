@@ -9,11 +9,11 @@
       "company_type": "Consultancy Company",
       "job_description": "As part of Waes consultancy, I lead cloud transformation initiatives for enterprise clients, defining architecture strategies and managing technical teams to deliver scalable, secure cloud-native solutions. My focus includes managing cross-functional teams, architecting multi-cloud environments, and establishing DevOps best practices that align with business objectives.",
       "tasks": [
-        "Led complete infrastructure redesign and migration for GoodHabitz, migrating from On-Premises, GCP, and Azure to a unified AWS platform using Terraform, resulting in 40% cost optimization and improved security posture.",
-        "Architected and deployed enterprise-scale EKS (Kubernetes) platforms supporting microservices architectures and automated CI/CD workflows across multiple environments.",
         "Designed and implemented Azure Kubernetes Service (AKS) clusters with integrated AI-powered Merge Request analysis and token caching mechanisms, reducing AI processing costs by 60%.",
-        "Built comprehensive AWS infrastructure using ECS Fargate for containerized applications, including API Gateway, Network Load Balancers, RDS, Secrets Manager, and ECR with full observability.",
+        "Led complete infrastructure redesign and migration for my latest client, migrating from On-Premises, GCP, and Azure to a unified AWS platform using Terraform, resulting in 40% cost optimization and improved security posture.",
+        "Architected and deployed enterprise-scale EKS (Kubernetes) platforms supporting microservices architectures and automated CI/CD workflows across multiple environments.",
         "Defined Infrastructure as Code strategies and CI/CD pipeline architectures, establishing deployment standards and automation frameworks for development teams.",
+        "Built comprehensive AWS infrastructure using ECS Fargate for containerized applications, including API Gateway, Network Load Balancers, RDS, Secrets Manager, and ECR with full observability.",
         "Provided technical leadership and mentoring to DevOps engineering teams, conducting architecture reviews and driving adoption of cloud-native best practices.",
         "Collaborated with C-level executives, CTOs, and engineering leadership to define DevOps maturity roadmaps, technology strategies, and organizational transformation initiatives.",
         "Managed multi-cultural project teams across different time zones, ensuring successful delivery of complex cloud migration projects within budget and timeline constraints."
