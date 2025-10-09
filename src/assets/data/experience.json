@@ -1,5 +1,5 @@
 {
-  "aboutMe": "I'm a Tech Lead DevOps Engineer with over 15 years of experience in IT, managing multicultural global teams. My main business expertise is retail and banking, where I've helped integrate different groups by creating pipelines to make Development, Operations, and Security areas work together. My goal is to help companies, from all backgrounds and sizes, move to DevOps culture, integrating agile methodologies, to achieve fast and secure development and production deployments.",
+  "aboutMe": "I'm a Tech Lead DevOps Engineer with over 15 years of experience in IT, managing multicultural global teams and leading cloud transformation initiatives. My expertise spans retail, banking, and enterprise technology, where I've successfully integrated Development, Operations, and Security teams through innovative pipeline solutions. I specialize in leading technical teams, defining cloud architecture strategies, and driving DevOps culture adoption across organizations of all sizes to achieve fast, secure, and scalable deployments.",
   "experience": [
     {
       "name": "Waes",
@@ -7,16 +7,16 @@
       "position": "Senior Cloud Architect | Tech Lead DevOps",
       "dates": "Aug 2023 - Current",
       "company_type": "Consultancy Company",
-      "job_description": "As part of Waes consultancy, I’ve led multiple cloud transformation projects for global clients, defining architecture, implementing cloud-native solutions, and managing technical strategy to align with business goals. My focus is on designing secure, scalable, and automated platforms across AWS and Azure, enabling teams to adopt DevOps culture and best practices.",
+      "job_description": "As part of Waes consultancy, I lead cloud transformation initiatives for enterprise clients, defining architecture strategies and managing technical teams to deliver scalable, secure cloud-native solutions. My focus includes managing cross-functional teams, architecting multi-cloud environments, and establishing DevOps best practices that align with business objectives.",
       "tasks": [
-        "Led full redesign and migration of client infrastructures from On-Premises, GCP, and Azure into a unified AWS platform, optimizing cost, security, and performance.",
-        "Defined and implemented multi-environment AWS infrastructure using Terraform, focusing on modular design, networking, and security best practices.",
-        "Architected and deployed a Kubernetes (EKS) platform to support microservices applications and CI/CD workflows.",
-        "Built and configured Kubernetes clusters in Azure (AKS), integrating AI-driven analysis into Merge Requests and implementing Token Caching to reduce AI processing costs.",
-        "Designed and deployed a complete AWS platform using ECS Fargate for containerized applications, including API Gateway, Load Balancers, RDS, Secrets Manager, and ECR.",
-        "Defined CI/CD pipelines and Infrastructure as Code strategies to standardize deployments across teams.",
-        "Provided technical leadership and mentoring to DevOps engineers, guiding architecture decisions and best practices.",
-        "Collaborated with stakeholders, CTOs, and engineering teams to define DevOps maturity models, roadmaps, and training initiatives."
+        "Designed and implemented Azure Kubernetes Service (AKS) clusters with integrated AI-powered Merge Request analysis and token caching mechanisms, reducing AI processing costs by 60%.",
+        "Led complete infrastructure redesign and migration for my latest client, migrating from On-Premises, GCP, and Azure to a unified AWS platform using Terraform, resulting in 40% cost optimization and improved security posture.",
+        "Architected and deployed enterprise-scale EKS (Kubernetes) platforms supporting microservices architectures and automated CI/CD workflows across multiple environments.",
+        "Defined Infrastructure as Code strategies and CI/CD pipeline architectures, establishing deployment standards and automation frameworks for development teams.",
+        "Built comprehensive AWS infrastructure using ECS Fargate for containerized applications, including API Gateway, Network Load Balancers, RDS, Secrets Manager, and ECR with full observability.",
+        "Provided technical leadership and mentoring to DevOps engineering teams, conducting architecture reviews and driving adoption of cloud-native best practices.",
+        "Collaborated with C-level executives, CTOs, and engineering leadership to define DevOps maturity roadmaps, technology strategies, and organizational transformation initiatives.",
+        "Managed multi-cultural project teams across different time zones, ensuring successful delivery of complex cloud migration projects within budget and timeline constraints."
       ],
       "tools": [
         "AWS: EKS, ECS, Fargate, API Gateway, RDS, ECR, S3, VPC, IAM, CloudFront, Secrets Manager, Load Balancers",

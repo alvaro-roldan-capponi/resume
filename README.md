@@ -4,6 +4,8 @@
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+**Note:** The base href is automatically configured for local development (`/`) and GitHub Pages deployment (`/resume/`).
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
@@ -33,11 +35,10 @@ ng add angular-cli-ghpages
 
 ## Deploy the App
 
-To build the app in production, you must connect it to a remote server on GitHub.
+To deploy the app to GitHub Pages, simply run:
 
-Configure your app to a remote server by running the following command:
+```bash
+ng deploy
+```
 
-
-ng deploy --base-href=https://GithubUserName.github.io/GithubRepoName/
-<!-- ng deploy --base-href=https://alvaro-roldan-capponi.github.io/resume/ -->
-ng deploy --base-href=/resume/
+The deployment is automatically configured with the correct base href (`/resume/`) for GitHub Pages. No need to specify it manually.
