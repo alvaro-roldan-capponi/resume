@@ -2,18 +2,47 @@
   "aboutMe": "I'm a Tech Lead DevOps Engineer with over 15 years of experience in IT, managing multicultural global teams and leading cloud transformation initiatives. My expertise spans retail, banking, and enterprise technology, where I've successfully integrated Development, Operations, and Security teams through innovative pipeline solutions. I specialize in leading technical teams, defining cloud architecture strategies, and driving DevOps culture adoption across organizations of all sizes to achieve fast, secure, and scalable deployments.",
   "experience": [
     {
+      "name": "Jumbo",
+      "url": "https://www.jumbo.com",
+      "position": "Senior Cloud Architect",
+      "dates": "Jan 2026 - Current",
+      "company_type": "Supermarket Company",
+      "job_description": "As part of Jumbo, I lead cloud transformation initiatives for the Integration Team. Creating infrastructure and applications to create a generic middleware platform for the company.",
+      "location": "Veghel, Netherlands",
+      "tasks": [
+        "Designed and implemented different kind of middleware applications/Infrastructures to serve the company needs.",
+        "Led complete infrastructure redesign and migration, migrating from legacy systems to modern cloud-native solutions.",
+        "Redesign E2E pipelines for the company, improving security, observability, and reliability.",
+        "Built comprehensive AWS infrastructure using ECS Fargate for containerized applications, including API Gateway, Application Load Balancers, Secrets Manager, and ECR with full observability.",
+        "Provided technical leadership and mentoring to DevOps engineering teams, conducting architecture reviews and driving adoption of cloud-native best practices.",
+        "Help implement Agentic AI initiavite into the company, creating a platform to run AI agents in a cost efficient way."
+      ],
+      "tools": [
+        "AWS: EKS, ECS, Fargate, API Gateway, RDS, ECR, S3, VPC, IAM, CloudFront, Secrets Manager, Load Balancers",
+        "Azure: AKS, Container Apps, Functions, Web Apps, AD, AI integrations",
+        "Terraform",
+        "GitLab / GitLab-CI",
+        "Python (FastAPI)",
+        "Ansible",
+        "Docker",
+        "Kubernetes",
+        "AI Tools (MR Analysis, Token Optimization)"
+      ]
+    },
+    {
       "name": "Waes",
       "url": "https://wearewaes.com",
       "position": "Senior Cloud Architect | Tech Lead DevOps",
-      "dates": "Aug 2023 - Current",
+      "dates": "Aug 2023 - Dec 2025",
       "company_type": "Consultancy Company",
       "job_description": "As part of Waes consultancy, I lead cloud transformation initiatives for enterprise clients, defining architecture strategies and managing technical teams to deliver scalable, secure cloud-native solutions. My focus includes managing cross-functional teams, architecting multi-cloud environments, and establishing DevOps best practices that align with business objectives.",
+      "location": "Eindhoven, Netherlands",
       "tasks": [
         "Designed and implemented Azure Kubernetes Service (AKS) clusters with integrated AI-powered Merge Request analysis and token caching mechanisms, reducing AI processing costs by 60%.",
         "Led complete infrastructure redesign and migration for my latest client, migrating from On-Premises, GCP, and Azure to a unified AWS platform using Terraform, resulting in 40% cost optimization and improved security posture.",
         "Architected and deployed enterprise-scale EKS (Kubernetes) platforms supporting microservices architectures and automated CI/CD workflows across multiple environments.",
         "Defined Infrastructure as Code strategies and CI/CD pipeline architectures, establishing deployment standards and automation frameworks for development teams.",
-        "Built comprehensive AWS infrastructure using ECS Fargate for containerized applications, including API Gateway, Network Load Balancers, RDS, Secrets Manager, and ECR with full observability.",
+        "Built comprehensive AWS infrastructure using EKS for containerized applications, including API Gateway, Network Load Balancers, RDS, Secrets Manager, and ECR with full observability.",
         "Provided technical leadership and mentoring to DevOps engineering teams, conducting architecture reviews and driving adoption of cloud-native best practices.",
         "Collaborated with C-level executives, CTOs, and engineering leadership to define DevOps maturity roadmaps, technology strategies, and organizational transformation initiatives.",
         "Managed multi-cultural project teams across different time zones, ensuring successful delivery of complex cloud migration projects within budget and timeline constraints."
@@ -37,6 +66,7 @@
       "dates": "Mar 2022 - Jul 2023",
       "company_type": "Cloud Services company",
       "job_description": "Migrate and maintain the company infrastructure, ensuring scalability, availability, and automation of deployments.",
+      "location": "Remote from Argentina for the USA based company",
       "tasks": [
         "Created and administered GitLab pipelines for CI/CD.",
         "Built, tested, and deployed applications in Kubernetes using Helm and pipelines."
@@ -56,6 +86,7 @@
       "dates": "Jul 2022 - Present (Part Time)",
       "company_type": "Retail company",
       "job_description": "Migrate and maintain a client web page and its infrastructure, improving functionality and design.",
+      "location": "Remote from Argentina for the USA based company",
       "tasks": [
         "Created and maintained deployment pipelines.",
         "Updated and created new functionalities in the company's UI.",
@@ -74,6 +105,7 @@
       "dates": "Aug 2019 - Feb 2022",
       "company_type": "Digital Product Engineering Company",
       "job_description": "Developed a Kubernetes platform to provide faster, secure, and highly scalable business applications. Applied continuous delivery practices, improved automation, and supported global development teams.",
+      "location": "Buenos Aires, Argentina",
       "tasks": [
         "Created and maintained GitOps pipelines for infrastructure.",
         "Developed CI/CD pipelines for application deployments.",
@@ -100,6 +132,7 @@
       "dates": "Jan 2017 - Jul 2019",
       "company_type": "International Bank",
       "job_description": "Implemented DevOps methodologies across regional teams, coordinating platform creation and pipeline automation for multi-country deployments.",
+      "location": "Buenos Aires, Argentina",
       "tasks": [
         "Created new pipelines to deploy applications.",
         "Supported development and DevOps teams across multiple Latin American countries."
