@@ -29,6 +29,9 @@
               <a class="link-dark" href="{{item.url}}" target="_blank">{{item.url}}</a>
               <h4>{{item.position}}</h4>
               {{item.dates}}
+              <div class="experience-location" *ngIf="item.location">
+                <span class="experience-location-label">Location:</span> {{item.location}}
+              </div>
             </div>
           </div>
           <div class="col-md-9">
